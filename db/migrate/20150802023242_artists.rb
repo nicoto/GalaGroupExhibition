@@ -5,9 +5,9 @@ class Artists < ActiveRecord::Migration
       t.string :firstname
       t.string :lastname
       t.text :biography
-      t.string :artist_website
+      t.string :website_url
       t.string :portrait_url
-      t.date :birthdate
+      t.date :birthday
       t.text :artist_statement
       t.timestamps  null: false
     end

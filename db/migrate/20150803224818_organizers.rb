@@ -1,11 +1,11 @@
-class Jurors < ActiveRecord::Migration
+class Organizer < ActiveRecord::Migration
   def change
-    create_table :jurors do |t|
+    create_table :organizers do |t|
       t.references :user
       t.string :title
       t.string :associations
       t.text :biography
-      t.string :manifest
+      t.string :germinating_statement
       t.string :portrait_url
       t.date :birthdate
       t.timestamps  null: false
