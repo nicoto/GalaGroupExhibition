@@ -1,2 +1,3 @@
 class ExhibitionsController < ApplicationController
+
 end

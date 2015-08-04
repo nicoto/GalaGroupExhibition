@@ -1,4 +1,4 @@
-class Organizer < ActiveRecord::Migration
+class Organizers < ActiveRecord::Migration
   def change
     create_table :organizers do |t|
       t.references :user

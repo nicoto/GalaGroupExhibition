@@ -5,7 +5,7 @@ class Participants < ActiveRecord::Migration
       t.string :ticket_number
       t.boolean :rsvp, default:false
       t.integer :guests, default: 1
-      t.boolean :table_reservation
+      t.boolean :table_reservation, default:false
       t.timestamps  null: false
     end
   end

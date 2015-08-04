@@ -4,11 +4,11 @@ class Exhibitions < ActiveRecord::Migration
 
       t.string :exhibit_name
       t.string :exhibit_subtitle
-      t.integer :organizer_id
+      #t.integer :organizer_id
       #t.date :start_date
       #t.date :end_date
 
-      t.boolean :private_previews default: false
+      t.boolean :private_previews, default: false
       t.date :preview_date
       t.date :opening_reception
       t.string :website_url
